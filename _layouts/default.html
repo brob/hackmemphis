@@ -31,7 +31,7 @@
         {% for sponsor in site.sponsors %}
             <a href="{{ sponsor.link }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.title }}"></a>
         {% endfor %}
-        <a href="#" class="button sponsors__button">Become a sponsor</a>
+        <a href="{{ page.sponsorLink }}" class="button sponsors__button">{{ page.sponsorLinkText }}</a>
     </section>
 
 
