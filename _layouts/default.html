@@ -30,8 +30,9 @@
     </section>
     <section class="sponsors">
         <h3 class="sponsors__headline">Our 2018 Sponsors</h3>
-        <a href="http://memphistechnology.org"><img src="/images/mtf.png" alt="" srcset=""></a>
-        <a href="http://memphistechnology.org"><img src="/images/makers.png" alt="" srcset=""></a>
+        {% for sponsor in site.sponsors %}
+            <a href="{{ sponsor.link }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.title }}"></a>
+        {% endfor %}
         <a href="#" class="button sponsors__button">Become a sponsor</a>
     </section>
 

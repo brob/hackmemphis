@@ -1,2 +1,5 @@
 name: My Jekyll Website
 exclude: ['node_modules', 'Gemfile', 'Gemfile.lock', 'GulpFile.js','package.json','package-lock.json']
+
+collections:
+  - sponsors
