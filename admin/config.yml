@@ -16,7 +16,9 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Main Headline", name: "mainHeadline", widget: "string"}
           - {label: "Main Subheadline", name: "mainSubhead", widget: "string"}
-          - {label: "Mission Statement", name: "missionStatement", widget: "string"}
+          - {label: "Main Link Text", name: "mainLinkText", widget: "string"}
+          - {label: "Main Link URL", name: "mainSubhead", widget: "string"}
+          - {label: "Mission Statement", name: "mainLink", widget: "string"}
   - name: "sponsors"
     label: "Sponsors"
     folder: "_sponsors"
