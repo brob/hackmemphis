@@ -49,5 +49,5 @@ gulp.task('default', function(callback) {
 });
 
 gulp.task('build', function(callback) {
-    runSequence('sass');
+    runSequence('sass', 'build:jekyll');
 });
