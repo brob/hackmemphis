@@ -1,0 +1,29 @@
+.banner {
+    background-image: url(/images/printergray.png), linear-gradient(75deg, $color--orange 30%, $color--accent);
+    background-blend-mode: hard-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+    display: flex;
+    color: white;
+    padding: 3rem;
+    &__text {
+        max-width: 900px;
+        margin: auto;
+    }
+    &__logo {
+        display: block;
+        margin: auto;
+    }
+    &__headline {
+        font-size: 2.5rem;
+        line-height: 1.3em;
+    }
+    &__subhead {
+        font-size: 1.5rem;
+        line-height: 1.3em;
+        font-weight: 300;
+        margin-bottom: 1.5em;
+    }
+}
+
