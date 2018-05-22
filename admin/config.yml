@@ -20,6 +20,7 @@ collections:
   - name: "sponsors"
     label: "Sponsors"
     folder: "_sponsors"
+    create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sponsor Link", name: "link", widget: "string"}
