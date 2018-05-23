@@ -22,7 +22,7 @@
     </section>
     <section class="about container">
         <h3 class="about__headline">About HACKmemphis</h3>
-        <p class="about__paragraph">{{ page.missionStatement }}</p>
+        <div class="about__paragraph">{{ page.missionStatement | markdownify }}</div>
     </section>
     <section class="sponsors container">
         <h3 class="sponsors__headline">Our 2018 Sponsors</h3>
