@@ -1,4 +1,4 @@
-name: My Jekyll Website
+name: HACKmemphis 2018 is September 28-30
 exclude: ['node_modules', 'Gemfile', 'Gemfile.lock', 'GulpFile.js','package.json','package-lock.json']
 
 collections:

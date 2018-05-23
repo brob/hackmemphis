@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>{{ site.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -12,7 +12,7 @@
 </head>
 <body>
    
-    <section class="banner" style="background-image: url({{ page.mainBgImage }}), linear-gradient(75deg, #E86724 30%, #0AB54B)">
+    <section class="banner" style="background-image: url('{{ page.mainBgImage }}'), linear-gradient(75deg, #E86724 30%, #0AB54B)">
         <div class="banner__text">
             <img class="banner__logo" src="/images/main-logo.png" alt="">
             <h1 class="banner__headline">{{ page.mainHeadline }}</h1>
@@ -20,13 +20,13 @@
             <a href="{{ page.mainLink }}" class="button">{{ page.mainLinkText }}</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about container">
         <div class="max-width">
             <h3 class="about__headline">About HACKmemphis</h3>
             <p class="about__paragraph">{{ page.missionStatement }}</p>
         </div>
     </section>
-    <section class="sponsors">
+    <section class="sponsors container">
         <h3 class="sponsors__headline">Our 2018 Sponsors</h3>
         {% for sponsor in site.sponsors %}
             <a href="{{ sponsor.link }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.title }}"></a>
