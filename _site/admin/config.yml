@@ -15,7 +15,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Main Headline", name: "mainHeadline", widget: "string"}
-          - {label: "Main Subheadline", name: "mainSubhead", widget: "string"}
+          - {label: "Main Subheadline", require: false, name: "mainSubhead", widget: "string"}
           - {label: "Main Banner Image", name: "mainBgImage", widget: "image"}
           - {label: "Main Link Text", name: "mainLinkText", widget: "string"}
           - {label: "Main Link URL", required: false, name: "mainLink", widget: "string"}
