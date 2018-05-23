@@ -17,7 +17,7 @@
             <img class="banner__logo" src="/images/main-logo.png" alt="">
             <h1 class="banner__headline">{{ page.mainHeadline }}</h1>
             <h2 class="banner__subhead">{{ page.mainSubhead }}</h2>
-            {% if page.mainLink %}<a href="{{ page.mainLink }}" class="button">{{ page.mainLinkText }}</a>{% endif %}
+            {% if page.mainLink != "" %}<a href="{{ page.mainLink }}" class="button">{{ page.mainLinkText }}</a>{% endif %}
         </div>
     </section>
     <section class="about container">
