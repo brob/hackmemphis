@@ -19,7 +19,7 @@ collections:
           - {label: "Main Banner Image", name: "mainBgImage", widget: "image"}
           - {label: "Main Link Text", name: "mainLinkText", widget: "string"}
           - {label: "Main Link URL", name: "mainLink", widget: "string"}
-          - {label: "Mission Statement", name: "missionStatement", widget: "text"}
+          - {label: "Mission Statement", name: "missionStatement", widget: "markdown"}
           - {label: "Be a Sponsor Link Text", name: "sponsorLinkText", widget: "string"}
           - {label: "Be a Sponsor Link", name: "sponsorLink", widget: "string"}
   - name: "sponsors"
